@@ -5,6 +5,9 @@
   min-height: 200px;
   border-radius: 8px;
   display: flex;
+  flex-direction: column; /* 修正：讓內容垂直排列 */
   justify-content: center;
   align-items: center;
+  text-align: center;    /* 修正：讓文字置中 */
+  padding: 20px;         /* 建議加上內距 */
 }

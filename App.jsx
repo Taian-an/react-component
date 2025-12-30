@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="card">
       <Greetings />
-      <User name="Vorameth Laorrattanasak" />
+      {/* 建議：將名字改為大寫以符合截圖視覺 */}
+      <User name="VORAMETH LAORRATTANASAK" />
     </div>
   )
 }
